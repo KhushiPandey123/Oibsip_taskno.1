@@ -1,0 +1,67 @@
+
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .super, .features, .contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .super h2, .features h2, .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .super p {
+    margin-bottom: 30px;
+  }
+  
+  .super .btn, .contact .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .features ul {
+    list-style-type: none;
+  }
+  
+  .features ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact input, .contact textarea, .contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  
